@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+    puts "clllllllllllllllllciked HHHHHHHHHHHHEEEEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPPPP"
   end
 
   def about
