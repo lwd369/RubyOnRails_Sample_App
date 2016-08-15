@@ -69,9 +69,8 @@ h2 {
 
 p {
   font-size: 1.1em;
-  line-height:1.7em;
+  line-height: 1.7em;
 }
-
 
 /* footer */
 
@@ -100,9 +99,9 @@ footer {
 }
 
 @mixin box_sizing {
-  -moz-box-sizing:    border-box;
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
+  box-sizing: border-box;
 }
 
 .debug_dump {
@@ -141,7 +140,8 @@ aside {
 }
 
 .gravatar {
-  float: left; margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 .gravatar_edit {
@@ -162,13 +162,29 @@ input {
 
 #error_explanation {
   color: red;
-  ul{
-  color: red;
-  margin: 0 0 30px 0;
+  ul {
+    color: red;
+    margin: 0 0 30px 0;
   }
 }
+
 .field_with_errors {
-  @extend .has-error; .form-control {
-  color: $state-danger-text;
+  @extend .has-error;
+  .form-control {
+    color: $state-danger-text;
   }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
